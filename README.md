@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [SkillBoss] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Pixel Mafia]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1:[ Diya Ajay - Lourdes Matha College of Science and Technology]
+- Member 2: [Jasmine.M - Lourdes Matha College of Science and Technology]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+SkillBoss is an AI-powered career architect that maps professional skills to ideal job roles through interactive discovery. It features a advanced, timed AI interviewer that evaluates candidate readiness, delivering a comprehensive performance audit of pros, cons, and targeted improvement areas to ensure  mastery of the skill or job.
 
 ### The Problem statement
-[What problem are you solving?]
+Job seekers often face a "readiness gap" where they either struggle to map their existing skills to the right roles or fail to understand what skill their desired carrier has and enter interviews unprepared for high-pressure technical scrutiny. Existing platforms offer static job listings but fail to provide real-time, rigorous validation of a candidate's actual depth of knowledge.
 
 ### The Solution
-[How are you solving it?]
+SkillBoss bridges this gap by offering a dual-path career architect. Whether starting from a dream job or a specific skill set, users are asked to attend   a timed AI-simulated interview that goes beyond surface-level questions. The system delivers a comprehensive performance audit—highlighting pros, cons, and precise improvement areas—ensuring candidates are truly market-ready before they ever hit apply for a job.
 
 ---
 
@@ -37,20 +37,28 @@
 - Tools used: [e.g., VS Code, Git, Docker]
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: [Frontend controller,speech to text,AI orchestrator,local development server]
+- Specifications: [Quad-core,16GB,External Cardioid or high quality internal,integrated(Intel Iris Xe /Apple M-series),stable 10Mbps+connections]
+- Tools required: [VS Code,chatgpt,gemini,node.js,modern web browser(chrome),Terminal]
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1:[ Dual-Path Navigation: Flexible entry points where users can either select a Desired Job to see required skills or input their Current Skills to discover matching career paths.]
+- Feature 2:[ Adaptive Skill Mapping: A dynamic database that connects industry-standard roles with the specific technical and soft skills required to succeed in them.]
+- Feature 3:[ High-Pressure AI Interviewer: A sophisticated AI agent that conducts advanced-level interviews, simulating real-world technical and behavioral screening.]
+- Feature 4:[Timed Response System: Every question includes a strict time limit to test the user's ability to think on their feet and perform under professional pressure.]
+- Feature 5:[Comprehensive Performance Audit: Instead of a simple pass/fail, the system generates a detailed report featuring:
 
+Pros: Specific strengths and correctly answered concepts.
+
+Cons: Technical gaps or areas where the logic was weak.]
+
+- Feature 6:[Gamified Mastery Tracking: A scoring system that benchmarks the user against industry requirements, encouraging iterative practice until they achieve professional proficiency.]
+
+Improvement Roadmap: Actionable feedback on exactly what to study to reach market-ready standards.
 ---
 
 ## Implementation
@@ -83,50 +91,56 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b9bd1155-36c8-411e-811f-dc3c3953079e" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+[the home page which give user choice whether to choose desired job or search for job matching their skill.]
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b01d95de-0544-49be-83ce-e6bda3ba43e6" />
 
+[choose the desired job and enter the difficulty level of interview.]
+
+![Screenshot3]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d42cbfc1-1e98-423b-a570-f1707b861299" />
+
+[where interview take place the interviewer checks our capabilities and our skills.]
+
+![Screenshot4]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/335e4300-2994-4eb8-87a8-9c898a6b1538" />
+
+[our pros,cons,where to improve and score is displayed.]
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+!Architecture Diagram<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/99bdae28-d3e8-400b-85ba-ef2eaf06134b" />
+
+ Core ComponentsFrontend (React/Next.js): Manages the dual-path entry (Known Job vs. Career Discovery) and the interactive interview UI.Backend API (Node.js/Python): The "Brain" in your VS Code terminal that routes data between the UI, Database, and AI.AI Engine (Gemini/GPT): Generates "CEO Level" questions and provides real-time analytical feedback.Database (PostgreSQL/Supabase): Stores the job-skill mapping, user profiles, and interview transcripts.Data FlowInput: User selects a path  System fetches Required Skills or Career Matches from the DB.Interview Loop: Frontend sends job context to AI AI generates strategic questions User submits answers for scoring.Output: System aggregates scores  Displays Evaluation & Skills to Improve Offers Retry or Resource links. Tech Stack InteractionVS Code Workspace: Houses the /frontend (UI), /backend (Logic), and .env (API Keys).REST Integration: The Frontend calls Backend endpoints (e.g., /start-interview) to trigger AI prompts.State Management: React handles the "Step-by-Step" flow from Start to End/Home.
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
+!<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/18e342f8-96ef-4d4c-adad-e103799c7a2d" />
+(docs/workflow.png)
 *Add caption explaining your workflow*
-
+A seemless journey from desired carrier and skill mapping to carrier discovery using high stacks AI stimulation and executive level feedback.
 ---
 
 ### For Hardware:
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+!<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e8c082ed-9c08-4eed-9f18-c484d88c250e" />
 
-![Schematic](Add your schematic diagram here)
+*Add caption explaining connections*
+A logic circuit diagram mapping the journey of a user's answer: from the microphone button to the AI 'Brain' and back to the CEO’s reaction.
+![Schematic](Add your schematic diagram here)<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/9547a670-bd14-4100-bedd-a901e839cd36" />
+This diagram illustrates the integration of the Web Speech API and Gemini LLM, highlighting the Logic Gate that regulates interview difficulty and real-time sentiment analysis.
 *Add caption explaining the schematic*
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+![Pixel Mafia]<img width="604" height="660" alt="image" src="https://github.com/user-attachments/assets/6e7f8f70-36ea-4660-ba2d-ad0fbb3dbab0" />
 
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+![Final]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a858b195-dec9-4296-9dda-5ed0a9962c22" />
 
-![Final](Add photo of final product here)
 *Explain the final build*
 
 ---
@@ -400,9 +414,8 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- Diya AJAY: [Specific contributions - Focused on the UI/UX experience and frontend flow.]
+- Jasmine.M: [Specific contributions -Focused on AI logic and backend integration]
 
 ---
 
