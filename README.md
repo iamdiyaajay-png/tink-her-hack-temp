@@ -31,11 +31,10 @@ SkillBoss bridges this gap by offering a dual-path career architect. Whether sta
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
----
+- Languages used: HTML5, CSS3, JavaScript (ES6+)
+-  Libraries used: * Google Generative AI SDK: To communicate with the LLM.
+
+
 
 ## Features
 
@@ -61,13 +60,19 @@ Improvement Roadmap: Actionable feedback on exactly what to study to reach marke
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+
+```# Clone the repository
+git clone https://github.com/your-username/boardroom-ai.git
+
+# Navigate into the project folder
+cd boardroom-ai
+
+# If you are using a local development server (optional but recommended)
+npm install live-server -g
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
-```
+live-server
 
 ---
 
@@ -121,26 +126,39 @@ The video demonstrates our topic how our website runs and what are the functions
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:chatgpt, Gemini , Code
+
+Purpose:
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+System Architecture & Logic: Assisted in designing the dual-path workflow for career matching.
+
+API Integration: Provided boilerplate code for connecting the Web Speech API and Gemini AI SDK.
+
+Technical Documentation: Generated the system logic circuits, flowcharts, and MIT License documentation.
+
+Debugging: Assisted in refining the "Hold to Speak" event logic for the microphone interface.
+
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+- "Create a system logic circuit for an AI interview app in PNG format."
+
+"Write a JavaScript function to handle real-time speech-to-text using the Web Speech API."
+
+"Design a flowchart for a user journey that branches between 'I know my career' and 'Suggest a career'."
+
+"Draft an MIT License for two contributors named Diya Ajay and Jasmine.M."
 
 **Percentage of AI-generated code:** [Approximately X%]
 
 **Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+Architecture Design: Defining the "Boardroom" concept and the specific user experience.
 
+Custom Business Logic: Implementing the difficulty levels (Intern vs. Executive) and custom scoring rubrics.
+
+UI/UX Design: Finalizing the "Boardroom" aesthetic and brand identity.
+
+Integration & Testing: Connecting the frontend components and fine-tuning the AI's "CEO" persona.
 *Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
 ---
