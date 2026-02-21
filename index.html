@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive AI Boardroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        
+        <section id="landing" class="screen">
+            <h1 class="glitch">BOARDROOM AI</h1>
+            <p>The Executive Board is ready for your assessment.</p>
+            <div class="menu">
+                <button onclick="showScreen('known-job')">I KNOW MY CAREER</button>
+                <button onclick="showScreen('unsure-path')">I AM UNSURE (MATCH SKILLS)</button>
+            </div>
+        </section>
+
+        <section id="known-job" class="screen hidden">
+            <h2>Desired Career Entry</h2>
+            <input type="text" id="job-input" placeholder="e.g. Software Architect, Pilot">
+            
+            <div class="difficulty-box">
+                <label>Difficulty:</label>
+                <select id="difficulty-level">
+                    <option value="easy">Intern (40s - Easy Grading)</option>
+                    <option value="medium" selected>Manager (25s - Standard)</option>
+                    <option value="hard">Executive (15s - Strict Grading)</option>
+                </select>
+            </div>
+            
+            <button onclick="analyzeJob(false)">PREPARE BOARDROOM</button>
+        </section>
+
+        <section id="unsure-path" class="screen hidden">
+            <h2>Skill Assessment</h2>
+            <p>Enter your top skills to determine your placement:</p>
+            <input type="text" id="skills-input" placeholder="e.g. Logic, Python, Sales, Design">
+            <button onclick="matchCareer()">MATCH MY CAREER</button>
+            
+            <div id="career-suggestion-box" class="hidden">
+                <h3 id="suggested-job-text"></h3>
+                <p>The CEO recommends this path. Do you accept?</p>
+                <button onclick="analyzeJob(true)">ACCEPT & START</button>
+                <button onclick="showScreen('landing')">RE-EVALUATE</button>
+            </div>
+        </section>
+
+        <section id="interview-screen" class="screen hidden">
+            <div class="interviewer-frame">
+                <img id="ceo-img" src="neutral.png" alt="CEO">
+                <div id="ai-status" class="status-badge">READY</div>
+            </div>
+
+            <div id="timer-container">
+                <div id="timer-bar"></div>
+            </div>
+
+            <h3 id="question-text">CEO is reviewing your file...</h3>
+
+            <div class="transcript-box">
+                <p id="live-transcript">Hold the button below to answer...</p>
+            </div>
+
+            <div class="controls">
+                <button id="mic-btn" onmousedown="startMic()" onmouseup="stopMic()">
+                    HOLD TO SPEAK
+                </button>
+            </div>
+        </section>
+
+        <section id="result-screen" class="screen hidden">
+            <div id="final-score">
+                </div>
+            
+            <div class="final-actions">
+                <button onclick="location.reload()">HOME</button>
+                <button onclick="analyzeJob(true)">RETRY INTERVIEW</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
