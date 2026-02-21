@@ -13,7 +13,7 @@
 - Member 2: [Jasmine.M - Lourdes Matha College of Science and Technology]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://iamdiyaajay-png.github.io/tink-her-hack-temp/]
 
 ### Project Description
 SkillBoss is an AI-powered career architect that maps professional skills to ideal job roles through interactive discovery. It features a advanced, timed AI interviewer that evaluates candidate readiness, delivering a comprehensive performance audit of pros, cons, and targeted improvement areas to ensure  mastery of the skill or job.
@@ -376,9 +376,9 @@ python script.py -v --format json data.json
 
 ### Video
 [Add your demo video link here - YouTube, Google Drive, etc.]
-
+https://drive.google.com/file/d/1mIKurZ-YPq6tMUeDIt-fSvAwVE89qVZY/view?usp=drivesdk
 *Explain what the video demonstrates - key features, user flow, technical highlights*
-
+The video demonstrates our topic how our website runs and what are the functions provided on our website.
 ### Additional Demos
 [Add any extra demo materials/links - Live site, APK download, online demo, etc.]
 
